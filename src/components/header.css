@@ -41,7 +41,9 @@ nav a:hover{
     padding-left: 5vh;
     text-decoration: none;
 }
-
+.btn-menu{
+    display: none;
+}
 @media only screen and (max-width: 700px) {
     .header{
         display: block;
@@ -98,4 +100,5 @@ nav a:hover{
         flex-direction: column;
         padding: 20px;
     }
+
 }
