@@ -1,0 +1,126 @@
+*{
+  color: #808080;
+}
+h3{
+  font-size: 5vh;
+  color: #b9b9b9;
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-top: 1px;
+}
+h5{
+  margin: 12px 0px;
+}
+span{
+  font-size: 3vh;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.card--task{
+  box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+  width: 50%;
+  margin: 60px auto;
+  padding: 40px;
+}
+input{
+  height: 20px;
+}
+
+button{
+  margin-top: 5vh;
+  padding: 2vh;
+  color: #FDD835;
+  background-color: #5C6BC0;
+  border: none;
+  transition: background 1s;
+  cursor:pointer;
+  border-radius: 4px;
+}
+button:hover{
+  background-color: #636883;
+  background: #FDD835;
+  color: white;
+}
+
+.card{
+  box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+  width: 50%;
+  margin: 20px auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.result{
+  display: none;
+}
+.contentCard{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  h3{
+    font-size: 5vh;
+    color: #b9b9b9;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+  }
+  h5{
+    margin: 12px 0px;
+  }
+  span{
+    font-size: 3vh;
+  }
+  .app{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .card--task{
+    box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+    width: 50%;
+    margin: 60px auto;
+    padding: 40px;
+  }
+  input{
+    height: 20px;
+  }
+  
+  button{
+    margin-top: 5vh;
+    padding: 2vh;
+    color: #FDD835;
+    background-color: #5C6BC0;
+    border: none;
+    transition: background 1s;
+    cursor:pointer;
+    border-radius: 4px;
+  }
+  button:hover{
+    background-color: #636883;
+    background: #FDD835;
+    color: white;
+  }
+  
+  .card{
+    box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+    width: 50%;
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .result{
+    display: none;
+  }
+  .contentCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,43 @@
+.footer{
+    border-top: solid rgb(216, 216, 216) 0.3px;
+    height: 30vh; 
+    display: flex;
+    margin-top: 70px;
+}
+.footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 3vh;
+}
+.footer--sort a{
+    color: #5C6BC0;   
+}
+.footer--sort a:hover{
+    color: #b9b9b9;   
+}
+.sort--title a{
+    color: rgb(187, 187, 187);
+    font-size: 4vh;
+}
+.footer--lang a{
+    color: #5C6BC0;
+}
+.footer--lang a:hover{
+    color: #b9b9b9;
+}
+.lang--title a{
+    color: rgb(187, 187, 187);
+    font-size: 4vh;
+}
+.footer--info{
+    display: flex;
+    background-color: #DCDCDC;
+    height: 8vh;
+    justify-content: center;
+}
+.footer--info span{
+    color: rgb(24, 24, 24);
+    display: block;
+    padding-top: 2vh;
+}
