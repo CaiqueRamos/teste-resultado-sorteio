@@ -33,7 +33,7 @@ button{
   margin-top: 5vh;
   padding: 2vh;
   color: #FDD835;
-  background-color: #5C6BC0;
+  background-color: #FD7C59;
   border: none;
   transition: background 1s;
   cursor:pointer;
@@ -95,7 +95,7 @@ button:hover{
     margin-top: 5vh;
     padding: 2vh;
     color: #FDD835;
-    background-color: #5C6BC0;
+    background-color: #FD7C59;
     border: none;
     transition: background 1s;
     cursor:pointer;
