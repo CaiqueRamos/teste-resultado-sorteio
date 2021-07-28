@@ -24,9 +24,6 @@ class header extends React.Component {
         return (
             <header className="header">
                 <div className="header--body">
-                    <div className="header--img">
-                        <img src="https://www.sorteiogo.com/static/images/logo.png" />
-                    </div>
                     <div className="header--text" id="action">
                         <h1 className="header--destaque">SorteioGram</h1>
                         <h1 className="header--text--two">Crie Sorteios Online Grátis</h1>

@@ -8,13 +8,14 @@
     color: white;
     align-items: center;
     font-size: 1.2vh;
+    padding: 20PX;
 }
 .header--text{
     display: flex;
     flex-direction: column;
 }
 .header--destaque{
-    color: #FDD835;
+    color: white;
     font-size: 7vh;
     margin-top: -10px;
 }
