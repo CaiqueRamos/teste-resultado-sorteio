@@ -10,12 +10,14 @@ class header extends React.Component {
     }
 
     mostrarMenu(){
-    
-        var aux = document.getElementById("indent");
-        aux.classList.add("btn-menu-active")
+        const actionMobile = document.getElementById("action");
 
-        var aux2 = document.getElementById("btn-menu");
-        aux2.classList.add("remove");
+        function toggleMenu(){
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('active')
+        }
+
+        actionMobile.addEventListener('click', toggleMenu);
     }
 
     render() {
@@ -25,12 +27,12 @@ class header extends React.Component {
                     <div className="header--img">
                         <img src="https://www.sorteiogo.com/static/images/logo.png" />
                     </div>
-                    <div className="header--text">
-                        <h1 className="header--destaque">SorteioGo</h1>
+                    <div className="header--text" id="action">
+                        <h1 className="header--destaque">SorteioGram</h1>
                         <h1 className="header--text--two">Crie Sorteios Online Grátis</h1>
                     </div>
                 </div>
-                <nav className="header--nav" id="indent">
+                <nav className="header--nav" id="nav">
                     <a href="">Sorteio de números</a>
                     <a href="">Sorteio de nomes</a>
                     <a href="">Amigo secreto</a>
